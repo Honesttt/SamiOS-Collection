@@ -1,0 +1,17 @@
+========================================
+Here is a tutorial on how to made and add app extensions.
+========================================
+
+Creating your own extension:
+
+To create an extension, all you would have to do is have a Python 3.8.2 Script (To work with all versions of Sami
+as of 4/20/2020.)
+
+Name the file you want the OS to start reading first "index.py" (CaSe SeNsItIvE!)
+You can have it redirect to other files, but make sure that there is one called index.py
+to start off with. Then when you're done, place your scripts in the Cart1 folder.
+
+Installing an extension:
+
+All you have to do to install one is place the scripts from the .rar, .zip, etc. file, into the
+Cart1 Folder in the main directory. Enjoy!
