@@ -1,0 +1,50 @@
+☆ = Developer Favorite
+SamiOS Changelog
+
+0.0.1 Started & Released: 4/16/2020
+First Version created in Python 3.8.2.
+Added 2 commands and a basic interface
+	-cmd 1 ver "Displays version of OS"
+	-cmd 2 crash "Crashes the OS"
+
+0.0.2 - Started & Released: 4/17/2020
+Official Second Version
+Codename "Viper" added
+New command "cmdlist" added.
+
+0.0.3 - Started & Released: 4/17/2020
+No release data! :/
+This is due to an error in the system and I wasn't sure which updates were different.
+Will update in the future hopefully!
+
+0.0.4 - Started & Released: 4/17/2020
+-Added Checker for system_scramble files.
+-Added Write Command "This will write A file in your current user folder." - cmdlist
+
+0.0.5 - Started & Released: 4/20/2020
+-Added Open Application + Command.
+-Added function for custom path in the write and open applications!
+☆-Blocked the ability to overwrite system files with write application.
+	-Added multiple write "segment" files to make path checking for system files easier, e.g. write.py and write2.py
+-Changed write command description in "cmdlist" interface.
+-Added new applications to system_scramble file check at beginning.
+-Added temporary birthday easter egg. (Command: "bday" in main terminal.)
+
+0.0.6 - Started: 4/20/2020 Release: 4/21/2020
+-Added interface parameter on the file open system.
+-Removed Birthday easter egg.
+-Added 'cls' command to clear screen.
+	-Added 'cls' in cmdlist menu.
+-Added command 'help' to access the cmdlist interface. (NOTE: Commands 'cmdlist' and 'help' can be used interchangeably.)
+-Added "Syntax-Error" when a command that isn't registered in the system is inputted.
+-Added "Cart" Files, as a spot for additional applications from PixelGame or users. (Run your Extension files with the cart.1 command.)
+
+0.0.7 - Started: 4/20/2020 Release: 4/23/2020
+-Modified the alert for creating a new account.
+-Added bootreg.py in scramble to make changing the boot-os text for future versions easier.
+-Added ©Pixelgame 2020 onto boot-os text.
+☆-Added a way for users to change the command signals to their liking, by seeing the cmds.py file in the system_scramble folder. (Editing of cmdlist / help commands are blocked.)
+-Removed the dir error in the help and cmdlist menu. That was a mistake and was supposed to be a future command. 
+-Replaced custom path in Write Application with the choice of adding to the Public folder or the User's documents folder.
+-Added Delete application, this can only be used with an administrator account, default on the system as "adm1n"
+-Added to reddit on 4/23/2020
